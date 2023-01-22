@@ -1,9 +1,10 @@
+package main;
 
 /**
  * This class encapsulates the set of 3 indexes that point to a substring
  * stored in an array of strings. The array of strings is the collection of
  * words that are indexed by the trie. Each node of the trie will have an
- * instance of Indexes.
+ * instance of main.Indexes.
  *
  * Example: consider the words "have", "hit", "see", "data" stored in an
  * array in that order. Then, the substring "ave" in "have" will be indexed
@@ -73,7 +74,7 @@ class Indexes {
 
 /**
  * This class encapsulates a compressed trie node with fields for the following:
- * - an Indexes instance, pointing to the substring that is held at that node
+ * - an main.Indexes instance, pointing to the substring that is held at that node
  * - the first child node
  * - the sibling node
  *
